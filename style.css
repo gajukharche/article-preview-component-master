@@ -41,7 +41,7 @@ body {
 }
 
 .article_data{
-    padding: 40px 0 0 40px;
+    padding: 40px 40px 0 40px;
     color: hsl(214, 17%, 51%);
     font-family: 'Manrope', sans-serif;
 }
