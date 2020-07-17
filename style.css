@@ -12,4 +12,14 @@ body{
     margin: 200px;
     }
 
-    .art
+    .article-main{
+        background: hsl(210, 46%, 95%);
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .article_image img{
+        padding: 2px;
+        width: 110%;
+        overflow: hidden;
+    }
