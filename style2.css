@@ -13,23 +13,25 @@ body {
 
 .container{
     background: hsl(210, 46%, 95%);
-    display: flex;
-    position: absolute;
+    display: grid;
+    grid-template-columns: 17rem 20rem;
+    justify-content: center;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 750px;
-    height: 250px;
+    transform: translate(-50%, -50%); */
+    /* width: 750px;
+    height: 250px; */
     border-radius: 10px;
 
 }
 
 .box_image{
-    width: 100%;
+    width:300px;
     /* max-width: 300px; */
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-   // overflow: hidden;
+ overflow: hidden;
    }
 .main_image img {
    
